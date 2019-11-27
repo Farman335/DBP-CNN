@@ -1,0 +1,19 @@
+   ***INSTRUCTIONS***
+
+1: Datasets folder contains training and testing datasets used by DU et al. in paper entitled "MsDBP: Exploring DNA-Binding Proteins by Integrating 
+   Multiscale Sequence Information via Chou’s Five-Step Rule". 
+   
+2: We adopted 2D CNN code for training model and classification that is implemented by Khanh et al. in paper entitled "SNARE-CNN: a 2D convolutional 
+   neural network architecture to identify SNARE proteins from high-throughput sequencing data".
+   
+3: The features extracted in this study by PSSM-TS-DCT.m, BiPSSM.m, and DDE.py files.
+
+4: The code of other machine learning classifiers i.e. XGB (eXtreme Gradient boosting), ERT (Extremely Randomized Tree), and RF (Random Forest) has 
+   provided in other classifier.py file. 
+
+5: 2D CNN model folder contains 2D CNN model with weights files designed on the training dataset. 
+
+6: All python codes are implemented in python version 3.6.3 using Keras package with Tensorflow backend.
+
+7: All matlab codes are simulated in matlab version R2018a.
+
